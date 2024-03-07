@@ -22,18 +22,18 @@ def get_running_processes():
     return processes
 def count_processes(processes):
     """Function  to check the running processes"""
-    process_count = {}
+    processcount = {}
     for process in processes:
         name = process['name']
-        process_count[name] = process_count.get(name, 0) + 1
-    return process_count
-def save_to_csv(process_count):
+        processcount[name] = processcount.get(name, 0) + 1
+    return processcount
+def save_to_csv(processes_count):
     """Function  to check the running processes"""
     with open('processes_info.csv', 'w', newline='') as csvfile:
         fieldnames = ['Process Name', 'Count']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        for process_name, count in process_count.items():
+        for process_name, count in processes_count.items():
             writer.writerow({'Process Name': process_name, 'Count': count})
 try:
     # 1. Get the list of all running processes

@@ -17,9 +17,9 @@ def reversestack(string):
     text=string.split()
     stack=[]
     for i in range (0,len(text)):
-     stack.append(text[i])
-    print('Reversed String is :')
+        stack.append(text[i])
+        print('Reversed String is :')
     for i in range(0,len(text)):
-        print(stack.pop(),end=" ")
-string=input("Enter a String : ")
-reversestack(string)
+            print(stack.pop(),end=" ")
+str1=input("Enter a String : ")
+reversestack(str1)

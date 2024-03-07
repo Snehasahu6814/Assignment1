@@ -16,7 +16,7 @@ def reversestring(string):
     """Function  to  reverse the String"""
     text=string.split()
     text=text[::-1]
-    str=" "
-    print(str.join(text))
-string=input("Enter a String : ")
-reversestring(string)
+    str2=" "
+    print(str2.join(text))
+str1=input("Enter a String : ")
+reversestring(str1)

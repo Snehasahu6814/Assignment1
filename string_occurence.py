@@ -21,5 +21,5 @@ def stringoccurence(string):
     # print(sort)
     for i,s in sort[:3]:
         print(f"{i}:{s}")
-string="HAPPIESTMINDS"
-stringoccurence(string)
+STR="HAPPIESTMINDS"
+stringoccurence(STR)

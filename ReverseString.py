@@ -19,5 +19,5 @@ def reversingstring(string):
     rev = ' '.join(reversed(text))
     result = f'{rev}'
     print(result)
-string=input("Enter a String : ")
-reversingstring(string)
+str1=input("Enter a String : ")
+reversingstring(str1)
