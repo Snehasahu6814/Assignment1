@@ -1,0 +1,9 @@
+Function 'get_running_processes' executed in 0.3299 seconds
+Function 'monitor_running_applications' executed in 0.6180 seconds
+Function 'stringoccurence' executed in 0.0010 seconds
+Function 'ReverseString' executed in 0.0010 seconds
+Function 'ReversingString' executed in 0.0000 seconds
+Function 'ReverseStack' executed in 0.0010 seconds
+Function 'reversestring' executed in 0.0000 seconds
+Function 'reversestack' executed in 0.0000 seconds
+Function 'reversestack' executed in 0.0000 seconds
